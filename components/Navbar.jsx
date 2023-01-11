@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
@@ -27,7 +27,6 @@ const Navbar = () => (
         className="w-{24px} h-[24px] object-contain"
       />
     </div>
-    navbar
   </motion.nav>
 );
 
