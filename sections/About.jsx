@@ -12,7 +12,7 @@ const About = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25}}
+      viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText
@@ -32,7 +32,7 @@ const About = () => (
         </span>{' '}
         of today, using only{' '}
         <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
+        easily explore the metaverse world you want, and turn your dreams into
         reality. Let's{' '}
         <span className="font-extrabold text-white">explore</span> the madness
         of the metaverse by scrolling down
